@@ -1,5 +1,5 @@
 ---
-layout: layout.vto
+layout: layouts/html.vto
 pageTitle: CV
 pageDesc: Details of employment history, experience, and skills.
 css:
@@ -7,15 +7,13 @@ css:
 ---
 
 <article id="a4">
-  <section>
-    <div class="col-1">
-      <h1>Elliot Grigor</h1>
-      <p>Systems Administrator</p>
-    </div>
-  </section>
+  <header id="head">
+    <h1>Elliot Grigor</h1>
+    <p>Systems Administrator</p>
+  </header>
 
-  <section>
-  </section>
+  {{ include "about.vto" }}
+  <div class="section-separator"></div>
 </article>
 
 <footer>
