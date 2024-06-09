@@ -8,6 +8,8 @@ const site = lume({
 });
 
 site.use(inline());
+
+site.copy("robots.txt");
 site.copy("static/favicon.ico", "favicon.ico");
 
 const minifyHTML = async function(pages) {
