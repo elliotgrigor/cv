@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  dist:
+    cmds:
+      - pwsh -Command cp -r _site docs
+
+  minify:
+    cmds:
+      - minify -w -o src/static/cv.min.css src/static/cv.css
