@@ -5,6 +5,7 @@
   --color-light: #f0f0f0;
 
   --font-sans: "Urbanist", sans-serif;
+  --font-serif: "Noto Serif", sans-serif;
 }
 
 * {
@@ -51,6 +52,7 @@ section {
   }
 
   & p {
+    font-family: var(--font-serif);
     font-size: 0.85rem;
   }
 }
@@ -69,6 +71,19 @@ footer {
 .section-separator {
   border-top: 1px solid var(--color-dark);
   margin: 0 2rem;
+}
+
+.indent {
+  display: inline-block;
+  width: 24px;
+}
+
+.section-header {
+  margin-bottom: 0.5rem;
+}
+
+.section-text {
+  text-align: justify;
 }
 
 #a4 {
