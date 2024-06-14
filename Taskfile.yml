@@ -5,6 +5,10 @@ tasks:
     cmds:
       - pwsh -Command cp -r _site docs
 
+  watch:
+    cmds:
+      - watchexec -e vto,css deno task build
+
   minify:
     cmds:
       - minify -w -o src/static/cv.min.css src/static/cv.css
