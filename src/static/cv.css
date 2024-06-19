@@ -86,6 +86,28 @@ footer {
   text-align: justify;
 }
 
+.employment-title {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.employment-company {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.employment-list {
+  margin-left: 1rem; /* moves bullet point inside container */
+}
+
+.employment-bullet {
+  margin-bottom: 0.3rem;
+  text-align: justify;
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+}
+
 #a4 {
   width: var(--page-width);
   aspect-ratio: 1 / 1.42; /* approx. A4 W:H ratio */
