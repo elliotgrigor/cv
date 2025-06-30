@@ -3,7 +3,7 @@ version: '3'
 tasks:
   dist:
     cmds:
-      - pwsh -Command cp -r _site docs
+      - cp -r _site docs
 
   watch:
     cmds:
