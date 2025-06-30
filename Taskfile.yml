@@ -3,7 +3,7 @@ version: '3'
 tasks:
   dist:
     cmds:
-      - cp -r _site docs
+      - cp _site/* docs
 
   watch:
     cmds:
