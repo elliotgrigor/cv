@@ -1,5 +1,5 @@
-import lume from "https://deno.land/x/lume@v2.2.1/mod.ts";
-import inline from "https://deno.land/x/lume@v2.2.1/plugins/inline.ts";
+import lume from "https://deno.land/x/lume@v3.0.4/mod.ts";
+import inline from "https://deno.land/x/lume@v3.0.4/plugins/inline.ts";
 
 import { minify } from "npm:html-minifier-terser@7.2.0";
 
