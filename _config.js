@@ -9,8 +9,8 @@ const site = lume({
 
 site.use(inline());
 
-site.copy("robots.txt");
-site.copy("static/favicon.svg", "favicon.svg");
+site.add("robots.txt");
+site.add("static/favicon.svg", "favicon.svg");
 
 const minifyHTML = async function(pages) {
   for (const page of pages) {
