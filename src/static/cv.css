@@ -4,8 +4,7 @@
   --color-dark: #333333;
   --color-light: #f0f0f0;
 
-  --font-sans: "Urbanist", sans-serif;
-  --font-serif: "Noto Serif", sans-serif;
+  --font-sans: "Barlow Semi Condensed", sans-serif;
 }
 
 * {
@@ -43,7 +42,8 @@ header {
 }
 
 section {
-  padding: 1.5rem 2rem;
+  text-align: justify;
+  padding: 1.5rem 6rem;
 
   & h2 {
     font-size: 1.33rem;
@@ -52,8 +52,9 @@ section {
   }
 
   & p {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-size: 0.85rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -70,12 +71,11 @@ footer {
 
 .section-separator {
   border-top: 1px solid var(--color-dark);
-  margin: 0 2rem;
+  margin: 0 6rem;
 }
 
-.indent {
-  display: inline-block;
-  width: 24px;
+.spacer {
+  margin: 0.75rem 0;
 }
 
 .section-header {
@@ -104,7 +104,7 @@ footer {
 .employment-bullet {
   margin-bottom: 0.3rem;
   text-align: justify;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 0.85rem;
 }
 
