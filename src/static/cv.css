@@ -17,7 +17,7 @@ body {
   font-family: var(--font-sans);
   line-height: 1.5;
   color: var(--color-dark);
-  background: var(--color-light);
+  background: #f8f4f1;
 }
 
 main {
@@ -66,6 +66,10 @@ footer {
 
   & p {
     margin-right: 0.5rem;
+
+    & a {
+      color: #e25c56;
+    }
   }
 }
 
