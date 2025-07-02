@@ -10,7 +10,7 @@ const site = lume({
 site.use(inline());
 
 site.copy("robots.txt");
-site.copy("static/favicon.ico", "favicon.ico");
+site.copy("static/favicon.svg", "favicon.svg");
 
 const minifyHTML = async function(pages) {
   for (const page of pages) {
