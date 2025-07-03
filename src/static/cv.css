@@ -53,7 +53,7 @@ section {
 
   & p {
     font-family: var(--font-sans);
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -109,7 +109,7 @@ footer {
   margin-bottom: 0.3rem;
   text-align: justify;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 #a4 {
